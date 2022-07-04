@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<title>Marco Elizondo - Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./logic.js"></script>
+
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Marco Elizondo</h1>
+  <p>Game Developer</p>
+  <p></p>
+</div>
+
+<div class="subtitle">
+  <h3>PORTFOLIO</h3>
+  <p></p>
+</div>
+
+
+<!-- Content -->
+<div class="row">
+  <div class="side-left"></div>
+  
+  <div class="main-column">
+
+    <!-- Thumbnail -->
+    <div id="thumbnail_01">
+      <img id="image_01" class="thumbnail" 
+           onmouseover="toggleThumbnail('01')"
+           src="./imgs/FF_cover-sqr.jpg"
+      >
+      <video id="video_01" class="thumbnail hiddenOnStart" 
+             onmouseout="toggleThumbnail('01')"
+             autoplay loop muted>
+        <source src="./imgs/ff_video_short.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <p></p>
+
+    <!-- Platforms -->
+    <div class="centerChildren">
+      <img class="platformIcon" alt="alternative text" title="iOS" src="./imgs/ios_icon.png" style="width: 10%;  height: auto;">
+      &nbsp;&nbsp;&nbsp;
+      <img class="platformIcon" alt="alternative text" title="Android" src="./imgs/android_icon.png" style="width: 10%;  height: auto;">
+    </div>
+    <p></p>
+    
+    
+    <p></p>
+
+    <!-- Tags -->
+    <div class="centerChildren">
+    <div class="tag">Unity</div> &nbsp;
+    <div class="tag">C#</div> &nbsp;
+    <div class="tag">Git</div> &nbsp;
+    </div>
+    <p></p>
+
+    <!-- Main Info -->
+    <h3 style="display:inline;">FireFront</h3> <p style="display:inline;">(2021 - Present)</p>
+    <p>
+      Programmer.</br>
+      Full-time @Blayze Games </br>
+    </p>
+    <p></p>
+
+    <!-- Buttons -->
+    <div class="centerChildren">
+    <div class="button" onclick="setExtra('01', 'play-instructions_')">Closed Beta</div> &nbsp;
+    <div class="button" onclick="setExtra('01', 'full-video_')">Video</div> &nbsp;
+    <div class="button" onclick="setExtra('01', 'more-info_')">More info</div> &nbsp;
+    </div>
+
+    <!-- Full Video -->
+    <div id="full-video_01" class="hiddenOnStart">
+      <blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Run and gun. What awaits in the factory? Showing some new animations as well as smoother lighting/visuals. Running at 60 fps on mobile. <a href="https://twitter.com/hashtag/mobilegame?src=hash&amp;ref_src=twsrc%5Etfw">#mobilegame</a><br><br>RT if you are wanting to see more and want to support us. <a href="https://t.co/UR706DZiJW">pic.twitter.com/UR706DZiJW</a></p>&mdash; FireFront Mobile FPS (@firefrontgame) <a href="https://twitter.com/firefrontgame/status/1499673848194613248?ref_src=twsrc%5Etfw">March 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <iframe id="full-video_01" class="hiddenOnStart" width="100%" height="30%"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+
+    <!-- Play Instructions -->
+    <div id="play-instructions_01" class="hiddenOnStart">
+      <p>FireFront is on closed beta. If you want to play the game you have to <a class="hyperlink" target="_blank" href="https://www.patreon.com/firefront">support it on Patreon</a> to get access.</p>
+    </div>
+
+    <!-- More Info -->
+    <div id="more-info_01" class="hiddenOnStart">
+      <p>Mobile FPS game based around large teams, vehicles, and team-based mechanics.</p>
+      <p>Up to 64 online players in medium-size maps.</p>
+    
+      <p>To get the latest news check out <a class="hyperlink" target="_blank" href="https://twitter.com/firefrontgame">the Twitter page</a></p>
+    </div>
+
+    <!-- Empty Space -->
+    <div id="empty-space_01">
+      </br></br></br>
+    </div>
+    
+    </br>
+
+  </div> <!-- Finished Element -->
+  <div class="main-column">
+
+    <!-- Thumbnail -->
+    <div id="thumbnail_02">
+      <img id="image_02" class="thumbnail" 
+           onmouseover="toggleThumbnail('02')"
+           src="./imgs/LV_cover-sqr.jpg"
+      >
+      <video id="video_02" class="thumbnail hiddenOnStart" 
+             onmouseout="toggleThumbnail('02')"
+             autoplay loop muted>
+        <source src="./imgs/lv_video_short.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <p></p>
+
+    <!-- Platforms -->
+    <div class="centerChildren">
+      <img class="platformIcon" alt="alternative text" title="Steam" src="./imgs/steam_icon.png">
+      &nbsp;&nbsp;&nbsp;
+      <img class="platformIcon" alt="alternative text" title="Nintendo Switch" src="./imgs/switch_icon.png">
+      &nbsp;&nbsp;&nbsp;
+      <img class="platformIcon" alt="alternative text" title="Xbox" src="./imgs/xbox_icon.png">
+    </div>
+    <p></p>
+    
+    
+    <p></p>
+
+    <!-- Tags -->
+    <div class="centerChildren">
+    <div class="tag">Unity</div> &nbsp;
+    <div class="tag">C#</div> &nbsp;
+    <div class="tag">Git</div> &nbsp;
+    </div>
+    <p></p>
+
+    <!-- Main Info -->
+    <h3 style="display:inline;">Lonesome Village</h3> <p style="display:inline;">(2022 - Present)</p>
+    <p>
+      Programmer.</br>
+      Part-time @Ogre Pixel </br>
+    </p>
+    <p></p>
+
+    <!-- Buttons -->
+    <div class="centerChildren">
+    <div class="button" onclick="setExtra('02', 'play-instructions_')">Play Now</div> &nbsp;
+    <div class="button" onclick="setExtra('02', 'full-video_')">Video</div> &nbsp;
+    <div class="button" onclick="setExtra('02', 'more-info_')">More info</div> &nbsp;
+    </div>
+
+    <!-- Full Video -->
+    <iframe id="full-video_02" class="hiddenOnStart" width="100%" height="30%"
+            src="https://www.youtube-nocookie.com/embed/4TP-iGkB_38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </iframe>
+
+    <!-- Play Instructions -->
+    <div id="play-instructions_02" class="hiddenOnStart">
+      <p>You can play Lonesome Village <a class="hyperlink" target="_blank" href="https://store.steampowered.com/app/1418360/Lonesome_Village/">demo on Steam.</a></p>
+    </div>
+
+    <!-- More Info -->
+    <div id="more-info_02" class="hiddenOnStart">
+      <p>Lonesome Village is a cozy, quiet town struggling to rebuild after a strange calamity wiped out their homes.</p>
+      <p>Take the role of Wes the coyote and help bring this village back from the brink of destruction in a puzzle-filled life sim! </p>
+    </div>
+
+    <!-- Empty Space -->
+    <div id="empty-space_02">
+      </br></br></br>
+    </div>
+    
+    </br>
+
+  </div> <!-- Finished Element -->
+  <div class="main-column">
+
+    <!-- Thumbnail -->
+    <div id="thumbnail_03">
+      <img id="image_03" class="thumbnail" 
+           onmouseover="toggleThumbnail('03')"
+           src="./imgs/NS_cover-art.jpg"
+      >
+      <video id="video_03" class="thumbnail hiddenOnStart" 
+             onmouseout="toggleThumbnail('03')"
+             autoplay loop muted>
+        <source src="./imgs/NS_gameplay-short-5s.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <p></p>
+
+    <!-- Platforms -->
+    <div class="centerChildren">
+      <img class="platformIcon" alt="alternative text" title="Web" src="./imgs/web_icon.png" style="width: 10%;  height: auto;">
+      &nbsp;&nbsp;&nbsp;
+      <img class="platformIcon" alt="alternative text" title="Android" src="./imgs/android_icon.png" style="width: 10%;  height: auto;">
+    </div>
+    <p></p>
+    
+    
+    <p></p>
+
+    <!-- Tags -->
+    <div class="centerChildren">
+    <div class="tag">Unity</div> &nbsp;
+    <div class="tag">C#</div> &nbsp;
+    <div class="tag">Git</div> &nbsp;
+    <div class="tag">Amplify Shader E.</div> &nbsp;
+    <div class="tag">AirConsole</div> &nbsp;
+    </div>
+    <p></p>
+
+    <!-- Main Info -->
+    <h3 style="display:inline;">Neverfix Station</h3> <p style="display:inline;">(2020)</p>
+    <p>
+      Programmer, director and producer.</br>
+      Contract with AirConsole @Ignita Games </br>
+    </p>
+    <p></p>
+
+    <!-- Buttons -->
+    <div class="centerChildren">
+    <div class="button" onclick="setExtra('03', 'play-instructions_')">Play Now</div> &nbsp;
+    <div class="button" onclick="setExtra('03', 'full-video_')">Video</div> &nbsp;
+    <div class="button" onclick="setExtra('03', 'more-info_')">More info</div> &nbsp;
+    </div>
+
+    <!-- Full Video -->
+    <iframe id="full-video_03" class="hiddenOnStart" width="100%" height="30%"
+            src="https://www.youtube-nocookie.com/embed/DtP1Oy1M9bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Play Instructions -->
+    <div id="play-instructions_03" class="hiddenOnStart">
+      <p>To play AirConsole games you have to:</p>
+      <ol>
+        <li>Open the <a class="hyperlink" href="https://www.airconsole.com/?preview_token=351f76d6c8c3ae64536acaaa5f6e7618&preview=https://game.airconsole.com/com.ignitagames.nsdemo.cdn.airconsole.com/2022-07-04-22-39-44/" target="_blank">game's demo main url</a> in your computer</li>
+        <li>In your phone open <a class="hyperlink" href="https://www.airconsole.com" target="_blank">airconsole.com</a> and use the code from your computer</li>
+      </ol>
+    </div>
+
+    <!-- More Info -->
+    <div id="more-info_03" class="hiddenOnStart">
+      <p>A frenetic couch co-op game about fixing the train’s railroad.</p>
+      <p>Get resources, build materials, and fix the railroad!</p>
+    </div>
+
+    <!-- Empty Space -->
+    <div id="empty-space_03">
+      </br></br></br>
+    </div>
+    
+    </br>
+
+  </div> <!-- Finished Element -->
+  
+  <div class="side-right"></div>
+</div>
+<div class="row">
+  <div class="side-left"></div>
+  
+  <div class="main-column">
+
+    <!-- Thumbnail -->
+    <div id="thumbnail_04">
+      <img id="image_04" class="thumbnail" 
+           onmouseover="toggleThumbnail('04')"
+           src="./imgs/Terraformers_cover-sqr.jpg"
+      >
+      <video id="video_04" class="thumbnail hiddenOnStart" 
+             onmouseout="toggleThumbnail('04')"
+             autoplay loop muted>
+        <source src="./imgs/terraformers_video_short.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <p></p>
+
+    <!-- Platforms -->
+    <div class="centerChildren">
+      <img class="platformIcon" alt="alternative text" title="Web" src="./imgs/web_icon.png">
+      &nbsp;&nbsp;&nbsp;
+      <img class="platformIcon" alt="alternative text" title="Windows" src="./imgs/windows_icon.png">
+    </div>
+    <p></p>
+    
+    
+    <p></p>
+
+    <!-- Tags -->
+    <div class="centerChildren">
+    <div class="tag">Unity</div> &nbsp;
+    <div class="tag">C#</div> &nbsp;
+    <div class="tag">Git</div> &nbsp;
+    </div>
+    <p></p>
+
+    <!-- Main Info -->
+    <h3 style="display:inline;">Terraformers</h3> <p style="display:inline;">(2022)</p>
+    <p>
+      Programmer and director.</br>
+      Personal Project | Global Game Jam 2022 </br>
+    </p>
+    <p></p>
+
+    <!-- Buttons -->
+    <div class="centerChildren">
+    <div class="button" onclick="setExtra('04', 'play-instructions_')">Play Now</div> &nbsp;
+    <div class="button" onclick="setExtra('04', 'full-video_')">Video</div> &nbsp;
+    <div class="button" onclick="setExtra('04', 'more-info_')">More info</div> &nbsp;
+    </div>
+    
+    <br>
+    <div class="centerChildren">
+    <div class="button" onclick="openUrl('https://github.com/MarcoElz/ggj22')">Look at the code on GitHub</div> &nbsp;
+    </div>
+      
+    <!-- Full Video -->
+    <iframe id="full-video_04" class="hiddenOnStart" width="100%" height="30%"
+            src="https://www.youtube-nocookie.com/embed/tnA_bFTZ88Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Play Instructions -->
+    <div id="play-instructions_04" class="hiddenOnStart">
+      <p>Play on the web or download it! <br>
+        <a class="hyperlink" target="_blank" href="https://marcoelz.itch.io/terraformers">https://marcoelz.itch.io/terraformers</a> </p>
+    </div>
+
+    <!-- More Info -->
+    <div id="more-info_04" class="hiddenOnStart">
+    <p>A Tower Defense and  Resource Management game where Energy generation causes pollution, generating monsters;
+      it's the Duality between progress and auto-destruction. <br>
+      Generate energy and gather materials to build new towers and defend your base from the creatures.
+    </p>
+    </div>
+
+    <!-- Empty Space -->
+    <div id="empty-space_04">
+      </br></br></br>
+    </div>
+    
+    </br>
+
+  </div> <!-- Finished Element -->
+  <div class="main-column">
+
+    <!-- Thumbnail -->
+    <div id="thumbnail_05">
+      <img id="image_05" class="thumbnail" 
+           onmouseover="toggleThumbnail('05')"
+           src="./imgs/ShipS_cover-sqr.jpg"
+      >
+      <video id="video_05" class="thumbnail hiddenOnStart" 
+             onmouseout="toggleThumbnail('05')"
+             autoplay loop muted>
+        <source src="./imgs/ships_video_short.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <p></p>
+
+    <!-- Platforms -->
+    <div class="centerChildren">
+      <img class="platformIcon" alt="alternative text" title="Web" src="./imgs/web_icon.png" style="width: 10%;  height: auto;">
+    </div>
+    <p></p>
+    
+    
+    <p></p>
+
+    <!-- Tags -->
+    <div class="centerChildren">
+    <div class="tag">Unity</div> &nbsp;
+    <div class="tag">C#</div> &nbsp;
+    <div class="tag">Git</div> &nbsp;
+    <div class="tag">AirConsole</div> &nbsp;
+    </div>
+    <p></p>
+
+    <!-- Main Info -->
+    <h3 style="display:inline;">Ship & Shoot</h3> <p style="display:inline;">(2020)</p>
+    <p>
+      Solo Dev.</br>
+      Personal Project | Game Jam (48toPlay) 2020</br>
+    </p>
+    <p></p>
+
+    <!-- Buttons -->
+    <div class="centerChildren">
+    <div class="button" onclick="setExtra('05', 'play-instructions_')">Play Now</div> &nbsp;
+    <div class="button" onclick="setExtra('05', 'full-video_')">Video</div> &nbsp;
+    <div class="button" onclick="setExtra('05', 'more-info_')">More info</div> &nbsp;
+    </div>
+
+    <!-- Full Video -->
+    <iframe id="full-video_05" class="hiddenOnStart" width="100%" height="30%"
+            src="https://www.youtube-nocookie.com/embed/eMiBBrEIUec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Play Instructions -->
+    <div id="play-instructions_05" class="hiddenOnStart">
+      <p>To play AirConsole games you have to:</p>
+      <ol>
+        <li>Open the <a href="https://www.airconsole.com/?preview_token=7eb5bcffc46b745f02d553e31fa99e85&preview=https://game.airconsole.com/com.marcoelz.48toplay20.cdn.airconsole.com/2020-05-03-16-55-23/" target="_blank" style="color: #94baff">game's main url</a> in your computer</li>
+        <li>In your phone open <a class="hyperlink" href="https://www.airconsole.com" target="_blank">airconsole.com</a> and use the code from your computer</li>
+      </ol>
+    </div>
+
+    <!-- More Info -->
+    <div id="more-info_05" class="hiddenOnStart">
+    <p>Ship & Shoot is a local multiplayer Battle Royale game where you have to be the last ship standing.<br>
+      Ships are placed on the edge of a circle that gets smaller over time. <br>
+      But wait... After a few rounds, the game has a few surprises;)
+    </p>
+    </div>
+
+    <!-- Empty Space -->
+    <div id="empty-space_05">
+      </br></br></br>
+    </div>
+    
+    </br>
+
+  </div> <!-- Finished Element -->
+  <div class="main-column">
+
+    <!-- Thumbnail -->
+    <div id="thumbnail_06">
+      <img id="image_06" class="thumbnail" 
+           onmouseover="toggleThumbnail('06')"
+           src="./imgs/Lum_cover-sqr.jpg"
+      >
+      <img id="video_06" class="thumbnail hiddenOnStart"
+           onmouseout="toggleThumbnail('06')"
+           src="./imgs/lum-sqr.jpg"
+      >
+    </div>
+    
+    <p></p>
+
+    <!-- Platforms -->
+    <div class="centerChildren">
+      <img class="platformIcon" alt="alternative text" title="Steam" src="./imgs/steam_icon.png">
+    </div>
+    <p></p>
+    
+    
+    <p></p>
+
+    <!-- Tags -->
+    <div class="centerChildren">
+    <div class="tag">Unity</div> &nbsp;
+    <div class="tag">C#</div> &nbsp;
+    <div class="tag">Git</div> &nbsp;
+    <div class="tag">Amplify Shader E.</div> &nbsp;
+    </div>
+    <p></p>
+
+    <!-- Main Info -->
+    <h3 style="display:inline;">Lum: Hide from Nightmares</h3> <p style="display:inline;">(2021 - Present)</p>
+    <p>
+      Programmer, director and producer.</br>
+      Personal Project @Ignita Games </br>
+    </p>
+    <p></p>
+
+    <!-- Buttons -->
+    <div class="centerChildren">
+    <div class="button" onclick="setExtra('06', 'play-instructions_')">WIP</div> &nbsp;
+    <div class="button" onclick="setExtra('06', 'more-info_')">More info</div> &nbsp;
+    </div>
+
+    <!-- Full Video -->
+    <iframe id="full-video_06" class="hiddenOnStart" width="100%" height="30%"
+            src="">
+    </iframe>
+
+    <!-- Play Instructions -->
+    <div id="play-instructions_06" class="hiddenOnStart">
+      <p>Lum: Hide from Nightmares is still in development.</p>
+      <p><a class="hyperlink" target="_blank" href="https://store.steampowered.com/app/1942730/Lum_Hide_from_Nightmares/">Wishlist on Steam!</a></p>
+    </div>
+
+    <!-- More Info -->
+    <div id="more-info_06" class="hiddenOnStart">
+    <p>Lum is a stealth and puzzle game where you control a soul and its companion dog. <br>
+      Hide and run from the nightmare creatures of this dreadful place while solving puzzles. <br>
+      Escape from the limbo to find peace in this short adventure!</p>
+    </div>
+
+    <!-- Empty Space -->
+    <div id="empty-space_06">
+      </br></br></br>
+    </div>
+    
+    </br>
+
+  </div> <!-- Finished Element -->
+  
+  <div class="side-right"></div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+
+</html>
+
+
