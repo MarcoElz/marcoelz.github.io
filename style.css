@@ -154,6 +154,18 @@ body {
   width: 10%;  height: auto;
 }
 
+
+.onlyColoredBackground {
+     background: #161a1d;
+}
+
+.alignRight{
+display: flex;
+  align-items: right;
+  justify-content: right;
+   padding: 10px;
+}
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row, .navbar {
